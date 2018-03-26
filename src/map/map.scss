@@ -1,0 +1,26 @@
+.map-container {
+    position: relative;
+    margin-top: 16px;
+    padding: 16px;
+    border: 1px solid #ccc;
+
+    .map-title {
+        margin-top: 0;
+    }
+
+    .map-close {
+        cursor: pointer;
+        position: absolute;
+        right: 16px;
+        top: 16px;
+        border: 0;
+        padding: 0;
+    }
+
+    .map {
+        border: 1px solid #2196F3;
+        width: 100%;
+        min-height: 300px;
+        height: 100%;
+    }
+}
